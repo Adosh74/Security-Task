@@ -1,0 +1,14 @@
+{
+  "name": "security_task",
+  "version": "1.0.0",
+  "description": "task for section",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "task1" : "node task1.js",
+    "task2" : "node task2.js",
+    "start": "npm run task1 && npm run task2"
+  },
+  "author": "Shebl",
+  "license": "ISC"
+}
