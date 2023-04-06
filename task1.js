@@ -10,20 +10,11 @@ let newMessage = '';
 
 for(let i = 0; i < message.length; i++) {
     let pos = alphabet.indexOf(message[i]);
-
-    if (pos == 25) {
-        newMessage = newMessage + alphabet[2];
+    if (pos > -1) {
+        newMessage = newMessage + alphabet[(pos +3 ) % alphabet.length];
         continue;
     }
-    if (pos == 24) {
-        newMessage = newMessage + alphabet[1];
-        continue;
-    }
-    if (pos == 23) {
-        newMessage = newMessage + alphabet[0];
-        continue;
-    }
-    newMessage = newMessage + alphabet[(pos % alphabet.length) +3];
+    newMessage = newMessage + message[i];
 }
 
 const result = ``
