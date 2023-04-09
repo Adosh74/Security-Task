@@ -5,6 +5,7 @@ Suppose that you have 3 files, the first one contains the Alphabet, the Second f
 1. Applying substitution technique (Replace any alphabet with a new one which precedes it with 3 places) to the original message and append the result to file number 3.
 2.  Applying the transposition technique using the result of the first task to be the input for the second task and append the result to file number 3.
 
+# Features
 ## substitution
 ![](/public/df3bbb8af916b3250e4718ba9bdd436e9a3bbec939ba34e8ea5fc85fb751750b.png)
 ![](/public/52a7f7ade9b1030275227c76c4bbd2bf387e875255c3347ded08639e8c37cfea.png)
